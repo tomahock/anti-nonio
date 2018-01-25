@@ -3,8 +3,8 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Anti Nonio1
-tagline:          'Anti Nonio 2'
+title:            Anti Nónio
+tagline:          'Anti Nónio 2'
 description:      'A plataforma que viola a sua privacidade.'
 url:              https://nonio.pt
 baseurl:          # the optional subpath of your site, e.g. "/blog"
@@ -12,6 +12,7 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # If you want to move just the blog index pages but keep
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
+google_analytics: UA-112358168-1
 
 author:
   name:           'Tomahock'
