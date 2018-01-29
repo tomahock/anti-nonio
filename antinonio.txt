@@ -1,0 +1,39 @@
+! Expires: 2 days (update frequency)
+! GitHub issues: https://github.com/brunomiguel/antinonio/issues
+! Homepage: https://nonio.pt
+
+||gigya.com/js/*
+
+||netscope.marktest.pt/*.js
+
+||hotjar.com/*/*.js
+
+||tinypass.com/xbuilder/*
+
+||cxense.com/*.js
+
+||chartbeat.com/*/*.js
+
+||adtlgc.com/*/*.js
+
+! -------------------------------------------------- !
+! Bloqueio de scripts inline nos sites da rede nonio !
+! -------------------------------------------------- !
+publico.pt * inline-script block
+expresso.sapo.pt * inline-script block
+rr.sapo.pt * inline-script block
+blitz.pt * inline-script block
+visao.pt * inline-script block
+expressoemprego.pt * inline-script block
+exameinformatica.pt * inline-script block
+cmjornal.pt * inline-script block
+record.pt * inline-script block
+jornaldenegocios.pt * inline-script block
+sabado.pt * inline-script block
+tsf.pt * inline-script block
+jn.pt * inline-script block
+dn.pt * inline-script block
+ojogo.pt * inline-script block
+dinheirovivo.pt * inline-script block
+radiocomercial.iol.pt * inline-script block
+maisfutebol.iol.pt * inline-script block
