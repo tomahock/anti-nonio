@@ -1,10 +1,7 @@
----
-layout: page
-title: uBlock Origin
-sidebar_link: true
----
+! Expires: 2 days (update frequency)
+! GitHub issues: https://github.com/brunomiguel/antinonio/issues
+! Homepage: https://nonio.pt
 
-<pre class="message">
 ||gigya.com/js/*
 
 ||netscope.marktest.pt/*.js
@@ -18,11 +15,10 @@ sidebar_link: true
 ||chartbeat.com/*/*.js
 
 ||adtlgc.com/*/*.js
-</pre>
 
-<h2>Bloqueio de scripts inline nos sites da rede nonio</h2>
-
-<pre class="message">
+! -------------------------------------------------- !
+! Bloqueio de scripts inline nos sites da rede nonio !
+! -------------------------------------------------- !
 publico.pt * inline-script block
 expresso.sapo.pt * inline-script block
 rr.sapo.pt * inline-script block
@@ -41,6 +37,3 @@ ojogo.pt * inline-script block
 dinheirovivo.pt * inline-script block
 radiocomercial.iol.pt * inline-script block
 maisfutebol.iol.pt * inline-script block
-</pre>
-
-<p><a href="abp:subscribe?location=https://nonio.pt/antinonio.txt&title=anti-nonio">Adicionar ao uBlock Origin</a></p>
