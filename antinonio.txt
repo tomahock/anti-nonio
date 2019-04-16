@@ -37,3 +37,8 @@ ojogo.pt * inline-script block
 dinheirovivo.pt * inline-script block
 radiocomercial.iol.pt * inline-script block
 maisfutebol.iol.pt * inline-script block
+
+! Scripts impresa
+https://id.impresa.pt/js/frame.html
+https://static.impresa.pt/content-gate/active/content-gate.min.js
+https://id.impresa.pt/js/impresa-sso.min.js
