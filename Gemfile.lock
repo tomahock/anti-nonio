@@ -20,7 +20,7 @@ GEM
     eventmachine (1.2.5)
     faraday (0.14.0)
       multipart-post (>= 1.2, < 3)
-    ffi (1.9.18)
+    ffi (1.11.3)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
     i18n (0.9.3)
