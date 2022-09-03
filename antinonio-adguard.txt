@@ -1,0 +1,79 @@
+[Adblock Plus 2.0]
+! Title: Lista Anti Nónio
+! Expires: 3 hours (update frequency)
+! GitHub issues: https://github.com/brunomiguel/antinonio/issues
+! Homepage: https://nonio.pt
+
+! -------------------------------------------------- !
+! Bloqueio de scripts inline nos sites da rede nonio !
+! -------------------------------------------------- !
+||expresso.sapo.pt^$csp=script-src 'self' * 'unsafe-inline'
+||rr.sapo.pt^$csp=script-src 'self' * 'unsafe-inline'
+||blitz.pt^$csp=script-src 'self' * 'unsafe-inline'
+||visao.pt^$csp=script-src 'self' * 'unsafe-inline'
+||expressoemprego.pt^$csp=script-src 'self' * 'unsafe-inline'
+||exameinformatica.pt^$csp=script-src 'self' * 'unsafe-inline'
+!||cmjornal.pt^$csp=script-src 'self' * 'unsafe-inline'
+!||record.pt^$csp=script-src 'self' * 'unsafe-inline'
+||jornaldenegocios.pt^$csp=script-src 'self' * 'unsafe-inline'
+||sabado.pt^$csp=script-src 'self' * 'unsafe-inline'
+||tsf.pt^$csp=script-src 'self' * 'unsafe-inline'
+!||jn.pt^$csp=script-src 'self' * 'unsafe-inline'
+!||nonio.globalmediagroup.pt/*
+!||dn.pt^$csp=script-src 'self' * 'unsafe-inline'
+!||ojogo.pt^$csp=script-src 'self' * 'unsafe-inline'
+!||dinheirovivo.pt^$csp=script-src 'self' * 'unsafe-inline'
+||radiocomercial.iol.pt^$csp=script-src 'self' * 'unsafe-inline'
+||maisfutebol.iol.pt^$csp=script-src 'self' * 'unsafe-inline'
+||tvi24.iol.pt^$csp=script-src 'self' * 'unsafe-inline'
+||cloud.weborama.design/*.js
+
+! -------------------------------------------------- !
+! Regra para cofina                                  !
+! -------------------------------------------------- !
+||aminhaconta.xl.pt/*.js
+!||www.cmjornal.pt/hits/scripts/cofinahits.js
+||cdn.xl.pt/sso/js/CofinaSSOApi.js
+
+! -------------------------------------------------- !
+! Regra para grupo IOL                               !
+! -------------------------------------------------- !
+||cdn.iol.pt/js/utils/blockadblock.js
+||cdn.iol.pt/utils/NonioContentGatting/js/*.js
+||radiocomercial.iol.pt/scripts/vendor/NonioContentGatting/*$first-party,important
+||cidade.iol.pt/scripts/vendor/noniocontentgatting/js/noniocontentbar.js
+||m80.iol.pt/scripts/vendor/NonioContentGatting/*
+
+! -------------------------------------------------- !
+! Regra para Global Media Group                      !
+! -------------------------------------------------- !
+!||*content-gating*
+
+! --------------------------------------------- !
+! Regra para Media Capital                      !
+! --------------------------------------------- !
+!||cdn.iol.pt/js/utils/JW8/iol.player_2.0.6.js
+!||cdn.iol.pt/BarraIOL/dist/assets/scripts/barra_IOL.js
+tvi24.iol.pt###nonio-basiclogin
+iol.pt###nonio-basiclogin
+||cdn.iol.pt/BarraIOL/dist/main.js
+
+! ----------------------------------------------------------------------------------------------------- !
+! Scripts impresa                                                                                       !
+! (gamado daqui https: blob: data://github.com/tomahock/anti-nonio/commit/b550b38d68029f9624a4bceb968a559bfc72193c) !
+! ----------------------------------------------------------------------------------------------------- !
+||id.impresa.pt/js/frame.html
+||static.impresa.pt/content-gate/active/content-gate.min.js
+||id.impresa.pt/js/impresa-sso.min.js
+
+! ------- !
+! DN e JN !
+! ------- !
+!||tinypass.com/*.js
+
+! ---------------- !
+! Grupo Renascença !
+! ---------------- !
+||*/noniogating/*.js
+||*/noniogatting.js
+||*/nonio.js
